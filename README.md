@@ -6,7 +6,7 @@ Note:
 My code will run on mac yosemite, it got re-written from macgeek's original code since a lot of functions doesn't work on yosemite.
 
 Instruction:
-1. Please load 5000 as apple script 
+1. Please load 5000 as apple script and change "facetime number" and "email address" 
 2. Need to compile big-red-button before using it
 
 Credit goes to: 
