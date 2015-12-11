@@ -40,7 +40,7 @@ int main(int argc, char **argv)
     if (res >= 0) {
       if (prior == LID_CLOSED && buf[0] == LID_OPEN) {
          printf("Ready to fire!\n");
-         system("sudo initctl stop xbmc");
+         system("sshpass -p PASSWORD ssh yen@xxx.xxx.xxx.xxx 'osascript ~/Desktop/capopen.scpt'");
          fflush(stdout);
 
       } else if (prior != BUTTON_PRESSED && buf[0] == BUTTON_PRESSED) {
