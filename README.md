@@ -1,7 +1,9 @@
 # 5000
 
+Need a raspberry pi and external web camera also the big red button
 My code will run on mac yosemite, it got re-written from macgeek's code since a lot of function doesn't work on yosemite.
 
+Instruction:
 Please load 5000 as apple script 
 need to compile big-red-button before using it
 
