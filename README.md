@@ -6,7 +6,8 @@ Note:
 My code will run on mac yosemite, it got re-written from macgeek's original code since a lot of functions doesn't work on yosemite any more.
 
 Instruction:
-1. Please load 5000 as apple script and change "facetime number" and "email address" 
+1. Please put 5000.scpt and capopen.scpt on your desktop
+2. Change "facetime number" and "email address" on 5000.scpt  
 2. Put big-red-button.c to raspberry pi and don't forgot to compile before using it
 
 Credit goes to: 
