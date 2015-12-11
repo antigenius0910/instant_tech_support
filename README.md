@@ -3,7 +3,7 @@ Requirement:
 Need a "raspberry pi" and "external web camera" also the "big red button".
 
 Note:
-My code will run on mac yosemite, it got re-written from macgeek's original code since a lot of functions doesn't work on yosemite.
+My code will run on mac yosemite, it got re-written from macgeek's original code since a lot of functions doesn't work on yosemite any more.
 
 Instruction:
 1. Please load 5000 as apple script and change "facetime number" and "email address" 
