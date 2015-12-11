@@ -1,6 +1,6 @@
 # 5000
 Requirement:
-Need "a raspberry pi" and "external web camera" also the "big red button".
+Need a "raspberry pi" and "external web camera" also the "big red button".
 
 Note:
 My code will run on mac yosemite, it got re-written from macgeek's original code since a lot of functions doesn't work on yosemite.
