@@ -21,7 +21,7 @@ tell application "Mail"
 	
 	set theSubject to "Test Subject" -- the subject
 	set theContent to "Test Content" -- the content
-	set theAddress to "privateeyeantigenius@gmail.com" -- the receiver 
+	set theAddress to "EMAILADDRESS" -- the receiver 
 	set theSignatureName to "signature_name" -- the signature name
 	set theAttachmentFile to "Macintosh HD:Users:yen:Pictures:test.jpg" -- the attachment path
 	set msg to make new outgoing message with properties {subject:theSubject, content:theContent, visible:true}
@@ -35,7 +35,7 @@ end tell
 delay 5
 
 -- Starts Facetime Session
-do shell script "open facetime://8322748808"
+do shell script "open facetime://PHONENUMBER"
 tell application "System Events"
 	repeat while not (button "Call" of window 1 of application process "FaceTime" exists)
 		delay 1
