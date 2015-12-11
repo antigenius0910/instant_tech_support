@@ -1,19 +1,3 @@
--- Starts Facetime Session
-do shell script "open facetime://xxxxxxxxxx"
-tell application "System Events"
-	repeat while not (button "Call" of window 1 of application process "FaceTime" exists)
-		delay 1
-	end repeat
-	click button "Call" of window 1 of application process "FaceTime"
-end tell
-
--- Check to see if Facetime is active
-tell application "System Events" to set theCount to the count of (processes whose name is "Facetime")
-if theCount = 0 then
-	do shell script "sleep 1"
-else
-	tell application "FaceTime" to activate
-	
 	set date_ to ((current date) as string)
 	set the clipboard to the date_
 	do shell script "cd /Users/yen/Pictures/;rm test.jpg"
@@ -42,7 +26,7 @@ else
 		
 		set theSubject to "Test Subject" -- the subject
 		set theContent to "Test Content" -- the content
-		set theAddress to "privateeyeantigenius@gmail.com" -- the receiver 
+		set theAddress to "EMAILADDRESS" -- the receiver 
 		set theSignatureName to "signature_name" -- the signature name
 		set theAttachmentFile to "Macintosh HD:Users:yen:Pictures:test.jpg" -- the attachment path
 		
@@ -55,8 +39,23 @@ else
 		
 		send msg
 	end tell
-	
 	delay 5
+
+-- Starts Facetime Session
+do shell script "open facetime://xxxxxxxxxx"
+tell application "System Events"
+	repeat while not (button "Call" of window 1 of application process "FaceTime" exists)
+		delay 1
+	end repeat
+	click button "Call" of window 1 of application process "FaceTime"
+end tell
+
+-- Check to see if Facetime is active
+tell application "System Events" to set theCount to the count of (processes whose name is "Facetime")
+if theCount = 0 then
+	do shell script "sleep 1"
+else
+	tell application "FaceTime" to activate
 end if
 
 -- Starts Video capture
