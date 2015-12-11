@@ -1,3 +1,4 @@
+	say "Processing your request. Please wait" using "Victoria"
 	set date_ to ((current date) as string)
 	set the clipboard to the date_
 	do shell script "cd /Users/yen/Pictures/;rm test.jpg"
