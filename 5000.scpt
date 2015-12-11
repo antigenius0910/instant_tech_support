@@ -13,8 +13,7 @@ tell application "System Events" to tell process "Photo Booth"
 	delay 1
 	key code 36 # Hit enter
 end tell
-
-delay 5
+delay 2
 quit application "Photo Booth"
 
 tell application "Mail"
@@ -32,7 +31,7 @@ tell application "Mail"
 	send msg
 end tell
 
-delay 5
+--delay 5
 
 -- Starts Facetime Session
 do shell script "open facetime://PHONENUMBER"
