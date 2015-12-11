@@ -7,7 +7,7 @@ My code will run on mac yosemite, it got re-written from macgeek's original code
 
 Instruction:
 1. Please load 5000 as apple script and change "facetime number" and "email address" 
-2. Need to compile big-red-button before using it
+2. Put big-red-button.c to raspberry pi and don't forgot to compile before using it
 
 Credit goes to: 
 Home 9000 - The ULTIMATE Doorbell by macgeek 
